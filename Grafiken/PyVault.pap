@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="657E375138931C55">
+  <PROJECT FORMAT="1.00" NAME="PyVault" AUTHOR="MichaelT" CREATED="2023.04.13 10:13:05" MODIFIED="2023.04.13 11:06:28">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="PyVault" CREATED="2023.04.13 10:13:14" MODIFIED="2023.04.13 11:03:04">
+        <LAYOUT FORMAT="1.00" COLUMNS="4" ROWS="17">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[PyVault]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Verbindung mit SQL Datenbank]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapModule" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Anmeldung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="96">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Laden der Menüoberfläche]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[Auswahl der Funktion]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="15">
+                <TEXT><![CDATA[Eingabe von Suchen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="42">
+                <TEXT><![CDATA[Laden der Suchmaske]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="11">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="44">
+                <TEXT><![CDATA[Eingabe von setzen der Filter]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="12">
+              <FIGURE SUBTYPE="PapLoopStart" FORMAT="1.00" ID="48" ASSOCIATE="50">
+                <TEXT><![CDATA[Durchsuchen der Datenbank mit gesetzten Filtern]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="13">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="91">
+                <TEXT><![CDATA[Ausgabe der passenden Einträge]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="14">
+              <FIGURE SUBTYPE="PapLoopEnd" FORMAT="1.00" ID="50" ASSOCIATE="48">
+                <TEXT><![CDATA[keine Einträge gefunden]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="15">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="84">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="16">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="99">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[Eingabe von Eintrag hinzufügen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="8">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="20">
+                <TEXT><![CDATA[Auswahl der Funktion]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="9">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="28">
+                <TEXT><![CDATA[Import einer CSV-Datei]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="11">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="30">
+                <TEXT><![CDATA[Format korrekt?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="12">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="22">
+                <TEXT><![CDATA[Manuelle Eingabe des Datensatzes]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="8">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="34">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="9">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="39">
+                <TEXT><![CDATA[Nein]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="10">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="40">
+                <TEXT><![CDATA[Ausgabe von Daten konnten nicht importiert werden]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="11">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="106">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="12">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="32">
+                <TEXT><![CDATA[Ja]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="13">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="24">
+                <TEXT><![CDATA[Speicherung des Datensatzes in der Datenbank]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="15">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="25">
+                <TEXT><![CDATA[Ausgabe von Datensatz hinzugefügt]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="87">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="10">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="74">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="10" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="10" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="12" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="97" FROM="96" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="12" TO="15" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="16" FROM="15" TO="42" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="101" FROM="99" TO="14" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="12" TO="99" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="113" FROM="39" TO="40" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="105" FROM="30" TO="22" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="27" FROM="24" TO="25" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="102" FROM="14" TO="20" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="103" FROM="20" TO="28" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="107" FROM="30" TO="106" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="108" FROM="106" TO="32" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="109" FROM="32" TO="24" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="104" FROM="28" TO="30" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="111" FROM="34" TO="39" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="43" FROM="42" TO="44" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="85" FROM="84" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="45" FROM="44" TO="48" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="96" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="110" FROM="20" TO="34" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="49" FROM="48" TO="91" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="86" FROM="25" TO="84" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="51" FROM="50" TO="84" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="112" FROM="40" TO="74" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="77" FROM="74" TO="87" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="92" FROM="91" TO="50" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="98" FROM="87" TO="96" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="1" NAME="Anmeldung" CREATED="2023.04.13 10:13:58" MODIFIED="2023.04.13 11:06:28">
+        <LAYOUT FORMAT="1.00" COLUMNS="3" ROWS="9">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Anmeldung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Benutzer vorhanden]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="19">
+                <TEXT><![CDATA[Nein]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="17">
+                <TEXT><![CDATA[Hinweis zur Kontaktaufnahme zum Administrator]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="37">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="42">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="40">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="2">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="30">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Ja]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="4">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Eingabe von Eingabe von Benutzername + Passwort]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="5">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Daten korrekt?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="6">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[Ja]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="13">
+                <TEXT><![CDATA[Zugriff erlauben]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="18" FROM="17" TO="37" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="32" FROM="30" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="4" TO="30" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="36" FROM="12" TO="13" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="35" FROM="10" TO="12" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="34" FROM="8" TO="10" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="38" FROM="37" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="33" FROM="6" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="29" FROM="19" TO="17" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="19" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="39" FROM="13" TO="37" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="41" FROM="10" TO="40" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="43" FROM="40" TO="42" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="44" FROM="42" TO="19" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
