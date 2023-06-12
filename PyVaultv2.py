@@ -43,7 +43,7 @@ class Startseite(tk.Tk):
         help_menu.add_command(label = "Info", command = self.info_dialog)
 
 # Pfad für das Logo
-        path = "PyVault - Tkinter/Images/Logo_PyVault.png"
+        path = "PyVault/Images/Logo_PyVault.png"
         self.image = Image.open(path)
         self.photo = ImageTk.PhotoImage(self.image)
         
@@ -487,7 +487,7 @@ class Adminbereich(tk.Tk):
         help_menu.add_cascade(label = "Info", command = self.info_dialog)
         
 # Pfad für das Logo
-        path = "PyVault - Tkinter/Images/Logo_PyVault.png"
+        path = "PyVault/Images/Logo_PyVault.png"
         self.image = Image.open(path).resize((100,40))
         self.photo = ImageTk.PhotoImage(self.image)
         
@@ -561,7 +561,7 @@ class Hauptfenster(tk.Tk):
         
 # Pfad für das Logo
       # Pfad für das Logo
-        path = "PyVault - Tkinter/Images/Logo_PyVault.png"
+        path = "PyVault/Images/Logo_PyVault.png"
         image = Image.open(path).resize((100,40))
         try:
             photo = ImageTk.PhotoImage(image)
